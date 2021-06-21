@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/:id', (req, res) => {
-    if (req.param.id === "00001") {
+    if (req.params.id === "00001") {
         return res.json('User found')
     }
     return res.status(404).json("User not found")

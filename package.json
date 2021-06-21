@@ -4,7 +4,7 @@
   "description": "REST API test using supertest and mocha simple example",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/api.test.js"
+    "test": "mocha test/api.test.js --exit"
   },
   "repository": {
     "type": "git",
